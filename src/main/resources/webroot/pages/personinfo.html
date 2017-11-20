@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<!-- Mirrored from www.zi-han.net/theme/hplus/personinfo.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Jan 2016 14:17:47 GMT -->
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href=" /css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href=" /css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+    <link href="  /css/animate.min.css" rel="stylesheet">
+    <link href=" /css/style.min862f.css?v=4.1.0" rel="stylesheet">
+    <link href=" /css/plugins/iCheck/custom.css" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg">
+<div class="row">
+    <div class="col-sm-12">
+        <div class="wrapper wrapper-content animated fadeInUp">
+            <div class="ibox">
+                <div class="ibox-content">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div>
+                                <h2 class="col-md-offset-1">用户信息</h2>
+                            </div>
+                            <hr />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <dl class="dl-horizontal">
+                                <form class="form-horizontal" id="userInfo" method="post">
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">昵称：</label>
+                                        <div class="col-sm-9">
+                                            <input id="nickname" name="nickname" class="required form-control" type="text" value="" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">真实姓名：</label>
+                                        <div class="col-sm-9">
+                                            <input id="realname" name="realname" class="required form-control" type="text" value="" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">邮箱：</label>
+                                        <div class="col-sm-9">
+                                            <input id="useremail" name="useremail" class="required email form-control" type="email" value="" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">手机号：</label>
+                                        <div class="col-sm-9">
+                                            <input id="usermobile" type="text" name="usermobile" class="form-control" value="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-md-4  col-md-offset-2">
+                                            <button id="editbutton" class="btn btn-primary" type="button" onclick="javascript:edit()">提交</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </dl>
+                        </div>
+                        <div class="modal inmodal" id="personalinformation" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content animated bounceInRight">
+                                    <div class="modal-body" style="height: 100%;">
+                                        <form class="form-horizontal">
+                                            <div class="form-group">
+                                                <label class="col-sm-7 control-label"><h2>提交成功!</h2></label>
+                                            </div>
+                                            <div class="modal-footer" style="text-align: center;">
+                                                <button type="button" class="btn btn-primary" data-dismiss="modal">确定</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src=" /js/jquery.min.js?v=2.1.4"></script>
+<script src=" /js/bootstrap.min.js?v=3.3.6"></script>
+<script src=" /js/content.min.js?v=1.0.0"></script>
+<script src=" /js/plugins/iCheck/icheck.min.js"></script>
+<script src=" /js/plugins/validate/jquery.validate.min.js"></script>
+<script src=" /js/plugins/validate/messages_zh.min.js"></script>
+<script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
+</body>
+
+
+<!-- Mirrored from www.zi-han.net/theme/hplus/personinfo.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Jan 2016 14:18:21 GMT -->
+</html>
